@@ -1,0 +1,1 @@
+This file is made for the test of the ransomeware.py
