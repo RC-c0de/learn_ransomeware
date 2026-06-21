@@ -1,9 +1,9 @@
-# learn how basic structure of ransomeware
+# learn how to code basic structure of ransomeware
 
 This is a repo that show you how ransomeware works .
 
 # Features
-* learn how to make a basic ransomeware for learning.
+* learn how to make a basic ransomeware for learning and educational purposes.
   
 
 # Installation
