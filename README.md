@@ -1,9 +1,9 @@
-# Ransomeware
+# learn how basic structure of ransomeware
 
 This is a repo that show you how ransomeware works .
 
 # Features
-* learn how basic structure of ransomeware , so you can built it by own
+* learn how to make a basic ransomeware for learning.
   
 
 # Installation
@@ -11,9 +11,9 @@ This is a repo that show you how ransomeware works .
  how to set up your project locally.
 
 ```bash
-git clone https://github.com
-cd your-repo-name
-npm install
+git clone https://github.com/RC-c0de/learn_ransomeware.git
+cd learn_ransomeware
+
 ```
 
 ## 🚀 Usage
@@ -21,8 +21,12 @@ npm install
 To run and encrypt the file
 
 ```bash
-python3 ransomeware
+python3 ransome.py
 ```
+To decypt the file 
 
-## 📄 License
-This project is licensed under the MIT License.
+```bash
+python3 solution.py
+```
+# 📄 License
+This project have no license , it is a small project for learning how ransomeware works.
